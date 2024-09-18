@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+th {
+    background-color: aqua;
+}
+
+tr:nth-child(odd) {
+    background-color: red;
+}
+
+
+tr:nth-child(even) {
+    background-color: blue;
+    color: white;
+}
+
+tr:nth-child(2) {
+    background-color: yellow;
+    color: red;
+}
+
+tr:nth-child(2) td:nth-child(2) {
+    background-color: beige;
+    color: blueviolet;
+}
+
+/* tr:hover {
+    background-color: red;
+} */
